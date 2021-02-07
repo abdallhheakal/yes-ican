@@ -1,0 +1,120 @@
+.container{
+	width:90%;
+	margin:20px auto;
+}
+.container header{
+	text-align:center;
+}
+.container header h2{
+	font-style:italic;
+}
+.container header a{
+	margin:10px;
+	font-size:25px;
+	color:#d6d6db;
+}
+.container #math{
+	display:flex;
+	margin-top:50px;
+	display:none;
+}
+.container #math .calculator, .container #math .calculator .lines button{
+	background-color:#0080;
+}
+.container #math .calculator{
+	position:fixed;
+	width:20%;
+	padding-bottom:5px;
+	border:5px solid rgb(214, 214, 219);
+	box-shadow:3px 3px rgb(214, 214, 219);
+	border-radius:6px;
+}
+.container #math .calculator form input{
+	display:block;
+	width:99%;
+	height:70px;
+	font-size:25px;
+	text-indent:3px;
+}
+.container #math .calculator .lines{
+	width:100%;
+	padding:5px;
+}
+.container #math .calculator .lines button{
+	width:23.4%;
+	height:30px;
+	font-size:20px;
+	border:0;
+	outline:0;
+	cursor:pointer;
+    color:white;
+}
+.container #sign{
+	width:80%;
+	margin:auto;
+	margin-top:50px;
+}
+ .container #math .lessons{
+	width:60%;
+	margin-left:30%;
+}
+.container #sign button , .container #math .lessons button{
+	width:100%;
+	text-align:left;
+	text-indent:5px;
+	font-size:25px;
+	padding:10px 15px;
+	display:block;
+	background-color:#000080;
+	color:white;
+	outline:0;
+	border-radius:10px;
+	border:4px solid;
+	cursor:pointer;
+	margin:10px 0;
+}
+.container #sign button:after, .container #math .lessons .button1:after{
+	content: "+";
+	float:right;
+	display:block;
+}
+.container #sign div, .container #math .lessons .div{
+	padding:10px;
+	background-color:#ffffffd4; 
+	border-radius:30px;
+	display:none;
+}
+.container #sign h1, .container #math .lessons h1{
+	padding:10px 0; 
+	text-align:center;
+	font-size:50px;
+	font-weight:bold;
+	font-style:italic;
+}
+.container #math .lessons img{
+	width:300px; 
+	height:250px; 
+	margin:10px; 
+	border-radius:20px
+}
+.container #sign button{
+	border-radius:70px;
+	border:6px solid;
+	padding:15px;
+}
+.container #sign img{
+	width:400px;
+	border-radius:20px;
+	border:6px solid;
+	height:200px;
+}
+.container #math .lessons p{
+	text-align:center;
+	text-transform:lowercase;
+	font-weight:bold;
+}
+.container #math .lessons p a:hover{
+	font-size:30px;
+}
+
+

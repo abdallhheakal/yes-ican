@@ -1,0 +1,82 @@
+.container {width:70%; margin:auto;}
+header img{
+    width:100%; 
+    height:500px; 
+    border-bottom-right-radius:30%; 
+    border-bottom-left-radius:30%;
+}
+h2{
+    text-align:center;
+    padding:20px 0;
+    font-size:50px;
+    font-weight:bold;
+    text-transform:capitalize;
+    color:white;
+    letter-spacing:3px;
+    text-shadow:3px 3px #000;
+    clear:both;
+}
+section div{
+    float:left;
+    width:42%;
+    background-color:#303F9F;
+    margin:10px 30px;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    border-radius:20px;
+}
+section div:hover{background-color:rgba(48, 63, 159, 0.72);}
+section div h1{
+    color:#ffffff;
+    font-size:30px;
+    text-transform:capitalize;
+    font-style:italic;
+}
+section div img{
+    width:200px;
+    height:100px;
+    margin:20px 0;
+    border-radius:20px;
+}
+section div button{
+    display:block;
+    margin:auto;
+    width:150px;
+    height:40px;
+    font-size:25px;
+    border:0;
+    border-radius:50px;
+    background-color:#ffffff;
+    color:#303F9F;
+    cursor:pointer;
+    outline:0;
+}
+.container #login{
+    clear:both; display:flex;
+}
+.container #login form h1{
+    padding:10px 0;
+    text-align:center;
+    color:white;
+}
+.container #login form hr{margin-bottom:5px;}
+.container #login form a{
+    margin:10px 0;
+    color:#ffffffd6;
+    text-transform:lowercase;
+}
+.container #login #register{display:none; color:white;}
+
+footer{ clear:both; margin-top:20px; }
+footer p{
+    text-align:center;
+    font-size:30px;
+    color:white;
+    letter-spacing:3px;
+}
+footer p img{
+    width:50px;
+    height:30px;
+    border-radius:50%;
+}
